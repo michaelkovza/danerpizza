@@ -1,0 +1,12 @@
+img {
+    display: block;
+    width: 100%;
+}
+
+@media (min-width: 480px) {
+    .container {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+}
